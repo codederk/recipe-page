@@ -1,0 +1,45 @@
+@import "_variables";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ff-02;
+  font-size: $p;
+  background-color: $eggshell-color;
+  color: $wenge-brown-color;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  color: $dark-charcoal-color;
+  font: $h1;
+}
+h2 {
+  color: $primary-color-01;
+  font: $h2;
+}
+h3 {
+  color: $primary-color-02;
+  font: $h3;
+}
+
+hr {
+  box-sizing: content-box;
+  overflow: visible;
+  border-color: $light-grey-color;
+}
+
+p {
+  font: $p;
+  color: $wenge-brown-color;
+}
